@@ -1,3 +1,8 @@
+body{
+  width: 80%;
+  margin: 0 auto;
+}
+
 ul{
   list-style-type: none;
   text-decoration: none;
@@ -16,9 +21,7 @@ nav a:hover{
 
 header h1{
   text-align: center;
+  
 }
 
-main{
-  width: 80%;
-  margin: 0 auto;
-}
+
