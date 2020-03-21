@@ -1,3 +1,4 @@
+/*global styles*/
 #container{
   width: 80%;
   margin: 0 auto;
@@ -8,13 +9,18 @@
 body a{
     color: black;
 }
+/*end global styles*/
 
+/*header styles*/
 header{
     width: 80%;
     margin: 0 auto;
     margin-bottom: 4%;;
 }
 
+header h1{
+    padding-top: 5%;
+}
 
 header h1, footer p{
     text-align: center;
@@ -28,7 +34,6 @@ a:active{
     text-decoration: underline;
 }
 
-
 h1{
     font-family: 'Covered By Your Grace';
 }
@@ -39,13 +44,22 @@ h1{
     margin-top: 5%;
     margin-bottom: 5%;
 }
+/*end header styles*/
 
+/*nav styles*/
+#top-nav{
+    margin-bottom: 2%;
+}
+
+/*end nav styles*/
+
+
+/*link card styles*/
 .card {
     border: none;
     padding-left: 2%;
     padding-right: 2%;
   }
-
 
   img,
   .card-img-top {
@@ -56,8 +70,20 @@ h1{
     column-count: auto;
     margin: 0 auto;
 }
+.card-title{
+    text-align: center;
+}
+.btn btn-primary a{
+    color: green;
+}
+#web img:hover{
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
+}
 
 
+/*end link card styles*/
+
+/*back to top styles*/
 .back-to-top{
     display: block;
     position: fixed;
@@ -73,11 +99,11 @@ h1{
 .back-to-top:hover{
     text-decoration: none;
 }
-nav i{
-    font-size: 2em;
-    text-align: center;
-}
+/*end of back to top styles*/
 
+
+
+/*section styles */
 #animals, #weirdo{
     padding-top: 3%;
     margin-top: 3%;
@@ -89,12 +115,47 @@ nav i{
     margin-top: 3%;
 }
 
-footer p{
-    font-size: .75em;
-}
+#web img {
+    border-radius: 4px;
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
 
 #butterfly{
     border-radius: 4px;
     box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 5%;
+}
+/*end section styles*/
+
+/*footer styles*/
+footer{
+   
+}
+footer p{
+    font-size: .95em;
+    font-family: 'Covered By Your Grace';
+}
+#footer-nav i{
+    font-size: 2em;
+    text-align: center;
+}
+
+
+/*end footer styles*/
+
+/*media queries*/
+@media only screen and (max-width: 767px){
+  
+    #top-nav{
+      display: none;
+    }
+    .card{
+      margin-top: 5%;  
+      max-width: 100%; 
+      margin: 0 auto;   
+    }
+   .navbar-nav i{
+    
+  
+   }
 }
