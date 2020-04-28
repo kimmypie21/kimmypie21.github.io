@@ -1,15 +1,25 @@
 /*global styles*/
 #container{
-  width: 80%;
-  margin: 0 auto;
   color: black;
-  
 }
-
 body a{
     color: black;
 }
-/*end global styles*/
+/*global styles*/
+
+/*centering*/
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#web, #animals, #weirdo{
+    width: 80%;
+    margin: 0 auto;
+}
+/*end centering*/
+
+
 
 /*header styles*/
 header{
@@ -59,6 +69,7 @@ h1{
     border: none;
     padding-left: 2%;
     padding-right: 2%;
+    margin: 8%;
   }
 
   img,
@@ -67,8 +78,8 @@ h1{
   }
   
 .card-columns{
-    column-count: auto;
-    margin: 0 auto;
+    column-count: 2;
+    
 }
 .card-title{
     text-align: center;
@@ -129,7 +140,7 @@ h1{
 
 /*footer styles*/
 footer{
-   
+   margin-top: 10%;
 }
 footer p{
     font-size: .95em;
@@ -143,6 +154,20 @@ footer p{
 
 /*end footer styles*/
 
+
+/*video player styles*/
+#video{
+  
+  align-content: center;
+}
+#video h1{
+    text-align: center;
+}
+
+/*end video player styles*/
+
+
+
 /*media queries*/
 @media only screen and (max-width: 767px){
   
@@ -154,8 +179,9 @@ footer p{
       max-width: 100%; 
       margin: 0 auto;   
     }
-   .navbar-nav i{
-    
-  
-   }
+
+    video{
+        margin-left: 5%;
+        max-width: 90%;
+    }
 }
