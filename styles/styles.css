@@ -44,7 +44,7 @@ a:active{
     text-decoration: underline;
 }
 
-h1{
+h1, h2{
     font-family: 'Covered By Your Grace';
 }
 
@@ -160,7 +160,7 @@ footer p{
   
   align-content: center;
 }
-#video h1{
+#video h2{
     text-align: center;
 }
 
