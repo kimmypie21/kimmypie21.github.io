@@ -165,7 +165,9 @@ footer p{
 
 /*end video player styles*/
 
-
+.home_diagrams{
+    text-align: center;
+}
 
 /*media queries*/
 @media only screen and (max-width: 767px){
