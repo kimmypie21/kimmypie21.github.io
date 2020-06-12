@@ -174,15 +174,22 @@ footer p{
 }
 
 /*media queries*/
-@media only screen and (max-width: 767px){
-  
+@media only screen and (max-width: 768px){
+    
     #top-nav{
-      display: none;
+        display: inline;
+        text-align: center;
     }
+
     .card{
       margin-top: 5%;  
       max-width: 100%; 
       margin: 0 auto;   
+    }
+
+    .card-columns{
+        column-count: 1;
+        
     }
 
     video{
